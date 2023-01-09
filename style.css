@@ -454,14 +454,28 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 360px) {
     #logo {
-        font-size: 10px;
-        width: 8rem;
+        font-size: 8px;
+        width: 6rem;
+    }
+    #navbar ul {
+        display: flex;
+        list-style: none;
+        width: 10rem;
+    }
+    
+    #navbar ul li a {
+        text-decoration: none;
+    }
+    
+    #icons {
+        color: gold;
+        margin-left: 1rem;
     }
     #navbar button {
-        width: 8rem;
-        height: 2.5rem;
+        width: 6rem;
+        height: 1.5rem;
     }
     .background-container {
         width: 100%;
@@ -520,13 +534,13 @@ footer {
     
     #skills li {
         list-style-type: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     #skills h2 {
         margin: 2rem;
         text-align: center;
-        font-size: 3rem;
+        font-size: 1.75rem;
     }
     
     #skills i {
@@ -538,11 +552,11 @@ footer {
         width: 100%;
         margin-top: 1rem;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     #languages h2 {
-        font-size: 3rem;
+        font-size: 1.75rem;
     }
     #work-container {
         background-color: rgb(255, 255, 255);
@@ -552,7 +566,7 @@ footer {
     
     #work-container h2 {
         padding: 1rem;
-        font-size: 3rem;
+        font-size: 1.75rem;
     }
     
     #work {
@@ -570,7 +584,7 @@ footer {
         width: 100%;
         padding: 2rem;
         margin-top: 0rem;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     #work-2 {
@@ -578,7 +592,7 @@ footer {
         width: 100%;
         padding: 2rem;
         margin-top: 0rem;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     /*Footer*/
